@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030303"
+    tools:context=".JobsPage">
+
+
+    <Button
+
+        android:id="@+id/jobButtonOne"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:background="@drawable/rc_blue"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+
+        android:id="@+id/jobButtonTwo"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:background="@drawable/rc_green"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/jobButtonOne" />
+
+    <Button
+
+        android:id="@+id/jobButtonThree"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:background="@drawable/rc_red"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/jobButtonTwo" />
+
+    <Button
+
+        android:id="@+id/jobButtonFour"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:background="@drawable/rc_yellow"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/jobButtonThree" />
+</RelativeLayout>

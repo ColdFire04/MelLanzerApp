@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030303"
+    tools:context=".emPage">
+
+
+        <Button
+
+            android:id="@+id/jobButtonOne"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="75dp"
+            android:layout_weight="1"
+            android:background="@drawable/rc_blue"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+
+            android:id="@+id/jobButtonTwo"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:layout_below="@id/jobButtonOne"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="75dp"
+            android:layout_weight="1"
+            android:background="@drawable/rc_green"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+
+            android:id="@+id/jobButtonThree"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:layout_below="@id/jobButtonTwo"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="75dp"
+            android:layout_weight="1"
+            android:background="@drawable/rc_red"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+
+            android:id="@+id/jobButtonFour"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:layout_below="@id/jobButtonThree"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="75dp"
+            android:layout_weight="1"
+            android:background="@drawable/rc_yellow"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+    </RelativeLayout>
